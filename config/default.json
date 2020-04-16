@@ -1,4 +1,5 @@
 {
   "port": 5000,
-  "mongoUrl": "mongodb+srv://illia:YNnPzj1l0R7xb8GI@cluster0-dcvzy.mongodb.net/app-short-url"
+  "mongoUrl": "mongodb+srv://illia:YNnPzj1l0R7xb8GI@cluster0-dcvzy.mongodb.net/app-short-url",
+  "jwtSecret": "great experiences Illia"
 }

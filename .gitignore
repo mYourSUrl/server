@@ -1,5 +1,6 @@
 yarn.lock
 node_modules/
+yarn-error.log
 
 # OS generated files
 .DS_Store
