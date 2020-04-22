@@ -2,12 +2,13 @@ const express = require('express')
 const config = require('config')
 const mongoose = require('mongoose')
 const authRoutes = require('./routes/auth.routes')
-
+const linkRoutes = require('./routes/link.routes')
 const app = express()
 
 app.use(express.json({ extended: true }))
 
 app.use('/api/auth', authRoutes)
+app.use('/api/link', linkRoutes)
 
 const PORT = config.get('port') || 2000
 
